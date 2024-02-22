@@ -1,0 +1,163 @@
+INFO 2024-02-22 20:56:44,244 autoreload 11428 9132 Watching for file changes with StatReloader
+INFO 2024-02-22 20:57:02,977 autoreload 9892 15412 Watching for file changes with StatReloader
+ERROR 2024-02-22 20:57:05,169 log 9892 9164 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\my_model_dj\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\my_model_dj\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\my_model_dj\mymodproj\mymodapp\views.py", line 10, in index
+    return render(request, "mymodelapp/index.html")
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\my_model_dj\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\my_model_dj\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\my_model_dj\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: mymodelapp/index.html
+ERROR 2024-02-22 20:57:05,171 basehttp 9892 9164 "GET / HTTP/1.1" 500 81588
+INFO 2024-02-22 21:07:52,509 autoreload 21600 18880 Watching for file changes with StatReloader
+ERROR 2024-02-22 21:07:54,280 log 21600 20836 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\my_model_dj\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\my_model_dj\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\my_model_dj\mymodproj\mymodapp\views.py", line 10, in index
+    return render(request, "mymodelapp/index.html")
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\my_model_dj\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\my_model_dj\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\my_model_dj\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: mymodelapp/index.html
+ERROR 2024-02-22 21:07:54,282 basehttp 21600 20836 "GET / HTTP/1.1" 500 81514
+WARNING 2024-02-22 21:08:41,953 log 21600 20836 Not Found: /user
+WARNING 2024-02-22 21:08:41,954 basehttp 21600 20836 "GET /user HTTP/1.1" 404 2829
+WARNING 2024-02-22 21:08:59,649 log 21600 20836 Not Found: /user_sorted
+WARNING 2024-02-22 21:08:59,650 basehttp 21600 20836 "GET /user_sorted HTTP/1.1" 404 2850
+INFO 2024-02-22 21:12:04,039 autoreload 21068 20708 Watching for file changes with StatReloader
+ERROR 2024-02-22 21:12:06,071 log 21068 18512 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\my_model_dj\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\my_model_dj\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\my_model_dj\mymodproj\mymodapp\views.py", line 10, in index
+    return render(request, "mymodelapp/index.html")
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\my_model_dj\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\my_model_dj\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\my_model_dj\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: mymodelapp/index.html
+ERROR 2024-02-22 21:12:06,073 basehttp 21068 18512 "GET / HTTP/1.1" 500 81514
+ERROR 2024-02-22 21:12:08,916 log 21068 18512 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\my_model_dj\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\my_model_dj\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\my_model_dj\mymodproj\mymodapp\views.py", line 10, in index
+    return render(request, "mymodelapp/index.html")
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\my_model_dj\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\my_model_dj\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\my_model_dj\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: mymodelapp/index.html
+ERROR 2024-02-22 21:12:08,918 basehttp 21068 18512 "GET / HTTP/1.1" 500 81651
+ERROR 2024-02-22 21:12:09,646 log 21068 18512 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\my_model_dj\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\my_model_dj\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\my_model_dj\mymodproj\mymodapp\views.py", line 10, in index
+    return render(request, "mymodelapp/index.html")
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\my_model_dj\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\my_model_dj\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\my_model_dj\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: mymodelapp/index.html
+ERROR 2024-02-22 21:12:09,647 basehttp 21068 18512 "GET / HTTP/1.1" 500 81651
+INFO 2024-02-22 21:15:13,064 autoreload 21068 20708 C:\Users\dmitr\OneDrive\Рабочий стол\my_model_dj\mymodproj\mymodapp\views.py changed, reloading.
+INFO 2024-02-22 21:15:13,427 autoreload 11356 9696 Watching for file changes with StatReloader
+ERROR 2024-02-22 21:15:15,396 log 11356 15052 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\my_model_dj\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\my_model_dj\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\my_model_dj\mymodproj\mymodapp\views.py", line 10, in index
+    return render(request, "mymodelapp/index.html")
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\my_model_dj\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\my_model_dj\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\my_model_dj\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: mymodelapp/index.html
+ERROR 2024-02-22 21:15:15,398 basehttp 11356 15052 "GET / HTTP/1.1" 500 81514
+INFO 2024-02-22 21:15:25,660 autoreload 21828 12588 Watching for file changes with StatReloader
+ERROR 2024-02-22 21:15:26,959 log 21828 10164 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\my_model_dj\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\my_model_dj\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\my_model_dj\mymodproj\mymodapp\views.py", line 10, in index
+    return render(request, "mymodelapp/index.html")
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\my_model_dj\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\my_model_dj\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\dmitr\OneDrive\Рабочий стол\my_model_dj\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: mymodelapp/index.html
+ERROR 2024-02-22 21:15:26,961 basehttp 21828 10164 "GET / HTTP/1.1" 500 81514
+INFO 2024-02-22 21:16:50,252 autoreload 21828 12588 C:\Users\dmitr\OneDrive\Рабочий стол\my_model_dj\mymodproj\mymodapp\views.py changed, reloading.
+INFO 2024-02-22 21:16:50,611 autoreload 22156 17148 Watching for file changes with StatReloader
+INFO 2024-02-22 21:16:58,986 autoreload 22156 17148 C:\Users\dmitr\OneDrive\Рабочий стол\my_model_dj\mymodproj\mymodapp\views.py changed, reloading.
+INFO 2024-02-22 21:16:59,358 autoreload 14580 22504 Watching for file changes with StatReloader
+INFO 2024-02-22 21:17:01,611 basehttp 14580 22324 "GET / HTTP/1.1" 200 193
+INFO 2024-02-22 21:17:21,464 basehttp 14580 22324 "GET /index HTTP/1.1" 301 0
+INFO 2024-02-22 21:17:21,477 basehttp 14580 9252 "GET /index/ HTTP/1.1" 200 193
+WARNING 2024-02-22 21:17:29,119 log 14580 9252 Not Found: /user
+WARNING 2024-02-22 21:17:29,120 basehttp 14580 9252 "GET /user HTTP/1.1" 404 2829
+INFO 2024-02-22 21:17:34,938 basehttp 14580 9252 "GET /index/ HTTP/1.1" 200 193
+WARNING 2024-02-22 21:17:38,479 log 14580 9252 Not Found: /index/user
+WARNING 2024-02-22 21:17:38,479 basehttp 14580 9252 "GET /index/user HTTP/1.1" 404 2847
+WARNING 2024-02-22 21:18:13,144 log 14580 9252 Not Found: /user_sorted
+WARNING 2024-02-22 21:18:13,145 basehttp 14580 9252 "GET /user_sorted HTTP/1.1" 404 2850
+WARNING 2024-02-22 21:18:59,518 log 14580 9252 Not Found: /basket
+WARNING 2024-02-22 21:18:59,518 basehttp 14580 9252 "GET /basket HTTP/1.1" 404 2835
+WARNING 2024-02-22 21:19:09,638 log 14580 9252 Not Found: /sorted_basket
+WARNING 2024-02-22 21:19:09,639 basehttp 14580 9252 "GET /sorted_basket HTTP/1.1" 404 2856
+INFO 2024-02-22 21:19:29,071 basehttp 14580 9252 "GET /index/ HTTP/1.1" 200 193
+WARNING 2024-02-22 21:19:33,987 log 14580 9252 Not Found: /index/sorted_basket
+WARNING 2024-02-22 21:19:33,987 basehttp 14580 9252 "GET /index/sorted_basket HTTP/1.1" 404 2874
+INFO 2024-02-22 21:19:46,704 basehttp 14580 9252 "GET /index/ HTTP/1.1" 200 193
+INFO 2024-02-22 21:19:55,067 basehttp 14580 9252 "GET /user/2 HTTP/1.1" 301 0
+INFO 2024-02-22 21:19:55,091 basehttp 14580 16844 "GET /user/2/ HTTP/1.1" 200 149
+INFO 2024-02-22 21:20:00,213 basehttp 14580 16844 "GET /user/3 HTTP/1.1" 301 0
+INFO 2024-02-22 21:20:00,231 basehttp 14580 1644 "GET /user/3/ HTTP/1.1" 200 149
+WARNING 2024-02-22 21:20:21,351 log 14580 1644 Not Found: /user_sorted
+WARNING 2024-02-22 21:20:21,352 basehttp 14580 1644 "GET /user_sorted HTTP/1.1" 404 2850
+WARNING 2024-02-22 21:20:23,910 log 14580 1644 Not Found: /user_sorted 3
+WARNING 2024-02-22 21:20:23,911 basehttp 14580 1644 "GET /user_sorted%203 HTTP/1.1" 404 2858
+WARNING 2024-02-22 21:20:28,198 log 14580 1644 Not Found: /user_sorted
+WARNING 2024-02-22 21:20:28,199 basehttp 14580 1644 "GET /user_sorted HTTP/1.1" 404 2850
+WARNING 2024-02-22 21:20:29,288 log 14580 1644 Not Found: /user_sorted/3
+WARNING 2024-02-22 21:20:29,288 basehttp 14580 1644 "GET /user_sorted/3 HTTP/1.1" 404 2856
+WARNING 2024-02-22 21:20:37,406 log 14580 1644 Not Found: /user_sorted
+WARNING 2024-02-22 21:20:37,406 basehttp 14580 1644 "GET /user_sorted HTTP/1.1" 404 2850
+INFO 2024-02-22 21:20:40,652 basehttp 14580 1644 "GET /user/3/ HTTP/1.1" 200 149
+INFO 2024-02-22 21:39:53,572 autoreload 20612 9392 Watching for file changes with StatReloader
+INFO 2024-02-22 21:39:55,838 basehttp 20612 15344 "GET / HTTP/1.1" 200 193
+INFO 2024-02-22 21:40:07,568 basehttp 20612 15344 "GET / HTTP/1.1" 200 193
